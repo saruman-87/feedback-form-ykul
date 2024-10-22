@@ -1,5 +1,5 @@
 .button{
-  padding: 18px;
+  padding: 24px 16px;
   font-size: var(--font-size-form-medium);
   border-radius: 8px;
   border: none;
@@ -16,4 +16,11 @@
 
 .button--orange:focus {
   outline: none;
+}
+
+@media (min-width: 375px) and (max-width: 768px){
+	.button{
+    padding: 16px 16px;
+    font-size: var(--font-size-form-small);
+  }
 }

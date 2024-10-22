@@ -1,7 +1,8 @@
 .feedback-form{
-  width: 480px;
+  min-width: 728px;
+  height: 100%;
   background: white;
-  padding: 64px 124px 64px 124px;
+  padding: 54px 114px 54px 114px;
   border-radius: 18px;
 }
 
@@ -10,7 +11,7 @@
   font-size: var(--font-size-form-large);
   color: var(--font-color-form-title);
   text-align: center;
-  font-weight: 600;
+  font-weight: 600; /* Bold */
   line-height: 43.58px;
 }
 
@@ -32,4 +33,26 @@
   border: 1px solid  rgba(201, 204, 221, 1);
   font-size: var(--font-size-form-medium);
   transition: border-color 0.3s;
+}
+/*Tablet*/
+@media (min-width: 376px) and (max-width: 768px) {
+	.feedback-form{
+    min-width: 500px;
+    height: 100%;
+    padding: 4px 14px 4px 14px;
+  }
+  .feedback-form__title{
+    font-size: var(--font-size-form-medium);
+  }
+}
+/*Mobile*/
+@media (max-width: 375px){
+	.feedback-form{
+    min-width: 320px;
+    height: 100%;
+    padding: 4px 14px 4px 14px;
+  }
+  .feedback-form__title{
+    font-size: var(--font-size-form-medium);
+  }
 }

@@ -1,6 +1,6 @@
 /*Подключаем шрифты*/
-@import url(fonts.css);
 @import url(vars.css);
+@import url(fonts.css);
 @import url(global.css);
 @import url(feedback-form.css);
 @import url(elements.css);
