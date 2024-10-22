@@ -1,0 +1,19 @@
+.button{
+  padding: 18px;
+  font-size: var(--font-size-form-medium);
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.button--orange{
+  background: var(--orange-color);
+  color: white;
+}
+
+.button--orange:hover{
+  background: var(--orange-hover-color);
+}
+
+.button--orange:focus {
+  outline: none;
+}

@@ -1,0 +1,13 @@
+/*Основные переменные CSS*/
+:root{
+  --bg-color:#46495C;
+  --font-family-form-title: "Open Sans";
+  --font-family-form-label: "Gothic A1", sans-serif;
+  --font-color-form-title: rgba(70, 73, 92, 1);
+  --font-color-label:rgba(0, 28, 61, 0.56);
+  --font-size-form-large: 32px;
+  --font-size-form-medium: 20px;
+  --font-size-form-small: 16px;
+  --orange-color:linear-gradient(0deg, #FF5721, #FF5721);
+  --orange-hover-color: #e64a19;
+}
